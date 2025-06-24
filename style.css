@@ -527,3 +527,23 @@ main {
     align-items: center;
     gap: 50px;
 }
+.last_cont {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+.last-left {
+    flex: 1;
+}
+.last-right {
+    flex: 1;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.last-right p {
+    color: grey;
+}
